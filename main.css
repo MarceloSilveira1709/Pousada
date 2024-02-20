@@ -1,0 +1,79 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.navbar {
+    background-color: #5a9deb;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #5a9deb;
+
+}
+
+#cabecalho .nav .nav-link ,
+.navbar-brand,
+.navbar-brand:hover
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+
+.navbar-toggler {
+    background-color:#d0e0f3;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.carousel-inner img {
+
+    height: 10%;
+}
+
+
+
+#sobre-a-pousada, #cardapio, #passeios{
+    background-color: #d0e0f3 ;
+}
+
+.text-colored {
+    color: #4893e7;
+}
+
+.nav-cardapio .nav-link.active
+{
+    background-color: #4893e7;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #313030
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    background-color: #5a9deb;
+    color: #fff;
+}
+
+@media  (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    
+    
+}
+
+

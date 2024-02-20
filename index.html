@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Beira Mar Pousada</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-pousada" class="nav-link">
+                            <i class="bi bi-house-door me-1" ></i>
+                            Sobre a Pousada
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item fw-bold">
+                        <a href="#acomodacoes" class="nav-link">
+                            <i class="bi bi-building"></i>
+                            Acomodações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#passeios" class="nav-link">
+                            <i class="bi bi-sun"></i>
+                            Passeios
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1" ></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+</header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-a-pousada">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./images/slides/chair-3034956_1920.jpg" alt="Foto bar">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/slides/hotel-1749602_1920.jpg" alt="Foto quarto hotel">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/slides/palm-3172367_1920.jpg" alt="Foto psicina">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./images//lobby-346426_1280.jpg" class="d-block w-100 h-100 rounded" alt="Foto lobby hotel">
+                    </div>
+                <div class="col-md-7 mt-3 mt-md-0">
+                    <h2 class="section-title">Sobre <span class="text-colored" >a Pousada</span></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maxime, corrupti animi non voluptas ab placeat cupiditate repellendus aut debitis soluta fugit, tempore impedit dolorem? Quidem minus minima pariatur officia.
+                    </p>
+                    <h3 class="section-title">Sobre <span class="text-colored">a história</span></h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla expedita tempora deleniti repudiandae alias molestias blanditiis. Numquam dolorum quia nam aut eos, error hic blanditiis, rerum quidem, impedit eveniet consectetur.
+                    </p>
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="acomodacoes" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Nossas <span class="text-colored">acomodações</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#suites" class="fw-bold text-start nav-link text-colored active">Suites</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#familia" class="fw-bold text-start nav-link text-colored">Familia</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#mar" class="fw-bold text-start nav-link text-colored">Vista para o mar</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#apartamentos" class="fw-bold text-start nav-link text-colored">Apartamentos</button>
+                        
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="suites">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Acomodações/suites/hotel-1979406_640.jpg" alt="suite">
+                                    <h5 class="text-colored fw-bold mt-2">Suite</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Acomodações/suites/bedroom-6686061_640.jpg" alt="suite">
+                                    <h5 class="text-colored fw-bold mt-2">Suite gran</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                
+                                
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="tab-pane" id="familia">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Acomodações/Familia/hotel-room-1447201_640.jpg" alt="quarto">
+                                    <h5 class="text-colored fw-bold mt-2">Para 3 pessoas</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Acomodações/Familia/to-travel-1677347_640.jpg" alt="quarto">
+                                    <h5 class="text-colored fw-bold mt-2"> Para cinco pessoas</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="mar">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="d-block w-100" src="/images/Acomodações/para o mar/hotel-5637315_640.jpg" alt="quarto para o mar">
+                                    <h5 class="text-colored fw-bold mt-2">Para o mar</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100" src="/images/Acomodações/para o mar/hotel-5637315_640.jpg" alt="quarto para o mar">
+                                    <h5 class="text-colored fw-bold mt-2">Vista ao mar</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100" src="/images/Acomodações/para o mar/hotel-5637315_640.jpg" alt="quarto para o mar">
+                                    <h5 class="text-colored fw-bold mt-2">Mar</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="apartamentos">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="d-block w-100" src="./images/Acomodações/Apartamentos/home-1622401_640.jpg" alt="Apto">
+                                    <h5 class="text-colored fw-bold mt-2">Apartamento casal</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100" src="./images/Acomodações/Apartamentos/living-room-2046668_640.jpg" alt="Apto">
+                                    <h5 class="text-colored fw-bold mt-2">Apartamento familia</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100" src="./images/Acomodações/Apartamentos/villa-1737168_640.jpg" alt="Apto">
+                                    <h5 class="text-colored fw-bold mt-2">Apartamento Grande</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="passeios" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Passeios em familia </h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="images/passeios/dive-1849531_640.jpg" alt="fundo mar" class="d-block w-100 rounded  mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-calendar-heart-fill"></i>
+                        Mergulho</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ipsam voluptas in a vero consequuntur, id vitae aspernatur sequi accusantium neque repellat eveniet magnam quos voluptatum praesentium. Culpa, quod accusantium!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/passeios/dunes-4461128_640.jpg" alt="dunas" class="d-block w-100 rounded  mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-arrow-through-heart-fill"></i>
+                        Passeio na Dunas</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ipsam voluptas in a vero consequuntur, id vitae aspernatur sequi accusantium neque repellat eveniet magnam quos voluptatum praesentium. Culpa, quod accusantium!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/passeios/beach-1867026_1280.jpg" alt="ilha" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Passeio na ilha </h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ipsam voluptas in a vero consequuntur, id vitae aspernatur sequi accusantium neque repellat eveniet magnam quos voluptatum praesentium. Culpa, quod accusantium!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3"> 
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3"> 
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3"> 
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone opcional</label>
+                            <input type="tel" id="telefone" class="form-control" required>
+                        </div>
+                        <div class="mb-3"> 
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                <i class="bi bi-facebook text-colored"></i>    
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                <i class="bi bi-instagram text-colored"></i>    
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                <i class="bi bi-whatsapp text-colored"></i>    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço</h3>
+                        <p>
+                            Rua Teste exemplo n 45 , Bairro Bootstrap - Sao paulo- SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
